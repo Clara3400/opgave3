@@ -1,0 +1,28 @@
+.img-des{
+    display: none;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon, i{
+    color: #333;
+}
+.btn{
+    border: none;
+}
+
+
+@media screen and (min-width: 992px){
+
+    .img-fluid{
+        display: none;
+    }
+    .img-des{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
